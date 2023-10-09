@@ -1,0 +1,21 @@
+:root {
+    --grid-column: 16;
+    --grid-row: 16;
+}
+
+body {
+    background-color: grey;
+}
+
+#container {
+    width: 800px;
+    height: 800px;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(var(--grid-column), auto);
+    grid-template-rows: repeat(var(--grid-row), auto);
+}
+
+.grid-item {
+
+}
